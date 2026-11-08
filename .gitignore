@@ -3,14 +3,27 @@
 .gradle/
 .kotlin/
 **/local.properties
-**/.idea/caches
-**/.idea/libraries
-**/.idea/modules.xml
-**/.idea/workspace.xml
-**/.idea/navEditor.xml
-**/.idea/assetWizardSettings.xml
-**/.DS_Store
+**/.idea/
 **/build/
 **/captures/
-.externalNativeBuild
-.cxx
+.externalNativeBuild/
+.cxx/
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Signing files
+*.jks
+*.keystore
+
+# Logs & Profiler
+*.log
+*.hprof
+
+# OS generated files
+**/.DS_Store
+**/Thumbs.db
+
